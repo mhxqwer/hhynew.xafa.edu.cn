@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+
+@media screen and (max-width: 1240px) {
+    .banner div::after {
+        display: none;
+    }
+
+    .ny-tit {
+        margin-top: -1px;
+    }
+
+    .jyjx-box {
+        padding: 30px;
+    }
+
+    .ny-tit-box {
+        padding: 15px 10px;
+    }
+
+    .ny-tit-box h3 {
+        font-size: 20px;
+    }
+
+    .ny-box {
+        padding-bottom: 80px;
+    }
+
+    .art-main .art-tit h3 {
+        font-size: 26px;
+    }
+
+    .art-main .cont-tit p span {
+        font-size: 14px;
+    }
+
+    .art-main .cont-tit p {
+        padding-bottom: 25px;
+    }
+
+    .art-main .art-body p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .pnext p,
+    .pnext p a {
+        font-size: 14px;
+    }
+
+    .art-main {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jyjx-box {
+        padding: 20px;
+    }
+
+    .gg-list li a {
+        padding: 15px 0;
+    }
+
+    .gg-list li .date p {
+        font-size: 22px;
+    }
+
+    .tw-list .tw-list-pic {
+        width: 260px;
+    }
+
+    .tw-list .tw-list-pic .pic {
+        padding-top: 48.42%;
+    }
+
+    .tw-list .tw-list-r p {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .ny-box {
+        padding-bottom: 30px;
+    }
+
+    .gg-list li .date {
+        width: 60px;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    .tw-list .tw-list-r h3 {
+        font-size: 16px;
+    }
+
+    .tw-list .tw-list-pic .date p {
+        font-size: 18px;
+        padding-top: 2px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tw-list .tw-list-pic {
+        float: none;
+        width: auto;
+        margin-right: 0;
+    }
+
+    .tw-list .tw-list-r {
+        margin-top: 20px;
+    }
+
+    .art-main .cont-tit p {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gg-list li .date p {
+        font-size: 18px;
+    }
+
+    .gg-list li h3 {
+        font-size: 14px;
+    }
+
+    .gg-list li a {
+        padding: 10px 0;
+    }
+
+    .tw-list .tw-list-r h3 {
+        font-size: 14px;
+        line-height: 22px;
+        max-height: 44px;
+    }
+
+    .art-main .art-body p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .pnext p,
+    .pnext p a {
+        font-size: 12px;
+    }
+
+    .art-main .art-tit h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {}
